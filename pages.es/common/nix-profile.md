@@ -1,15 +1,15 @@
 # nix profile
 
 > Instala, actualiza y quita paquetes de perfiles de Nix.
-> Más información: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-profile.html>.
+> Más información: <https://nix.dev/manual/nix/2.30/command-ref/new-cli/nix3-profile>.
 
 - Instala unos paquetes desde nixpkgs al perfil predeterminado:
 
-`nix profile install {{nixpkgs#pkg1 nixpkgs#pkg2 ...}}`
+`nix profile add {{nixpkgs#pkg1 nixpkgs#pkg2 ...}}`
 
 - Instala un paquete desde un flake en GitHub a un perfil específico:
 
-`nix profile install {{github:dueño/repositorio/paquete}} --profile {{./ruta/al/directorio}}`
+`nix profile add {{github:dueño/repositorio/paquete}} --profile {{./ruta/al/directorio}}`
 
 - Lista los paquetes instalados actualmente en el perfil predeterminado:
 

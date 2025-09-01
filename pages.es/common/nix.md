@@ -19,7 +19,7 @@
 
 - Instala unos paquetes de nixpkgs de manera permanente:
 
-`nix profile install {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
+`nix profile add {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
 
 - Quita rutas desusadas del almacén de Nix para liberar espacio:
 

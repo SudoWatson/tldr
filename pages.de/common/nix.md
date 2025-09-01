@@ -19,7 +19,7 @@
 
 - Installiere einige Pakete von nixpkgs dauerhaft:
 
-`nix profile install {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
+`nix profile add {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
 
 - Entferne ungenutzte Pfade aus dem Nix-Store, um Speicherplatz freizugeben:
 

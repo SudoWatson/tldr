@@ -20,7 +20,7 @@
 
 - Install some packages from nixpkgs permanently:
 
-`nix profile install {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
+`nix profile add {{nixpkgs#pkg1 nixpkgs#pkg2 nixpkgs#pkg3 ...}}`
 
 - Remove unused paths from Nix store to free up space:
 

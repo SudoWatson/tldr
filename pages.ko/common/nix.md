@@ -19,7 +19,7 @@
 
 - nixpkgs에서 일부 패키지를 영구적으로 설치:
 
-`nix profile install {{nixpkgs#패키지1 nixpkgs#패키지2 nixpkgs#패키지3 ...}}`
+`nix profile add {{nixpkgs#패키지1 nixpkgs#패키지2 nixpkgs#패키지3 ...}}`
 
 - Nix 저장소에서 사용하지 않는 경로 제거하여 공간 확보:
 
